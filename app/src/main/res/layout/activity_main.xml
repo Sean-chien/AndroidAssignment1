@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/scoreTV"
+        android:textSize="20sp"
+        android:text="Score: 0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="35dp"
+        android:text="Select the right color"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="100dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/leftBtn"
+            android:onClick="buttonTapped"
+            android:layout_marginRight="50dp"
+            android:background="@color/colorAccent"
+            android:layout_width="150dp"
+            android:layout_height="150dp"/>
+
+        <Button
+            android:id="@+id/rightBtn"
+            android:onClick="buttonTapped"
+            android:background="@color/colorPrimary"
+            android:layout_width="150dp"
+            android:layout_height="150dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/questionTV"
+        android:layout_marginTop="100dp"
+        android:textSize="50sp"
+        android:text="Blue"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
