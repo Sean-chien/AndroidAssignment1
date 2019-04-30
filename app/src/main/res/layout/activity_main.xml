@@ -49,7 +49,7 @@
     <TextView
         android:id="@+id/questionTV"
         android:layout_marginTop="100dp"
-        android:textSize="50sp"
+        android:textSize="35sp"
         android:text="Blue"
         android:textAlignment="center"
         android:layout_width="match_parent"

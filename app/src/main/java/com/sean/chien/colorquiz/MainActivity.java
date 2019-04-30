@@ -7,8 +7,6 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import static com.sean.chien.colorquiz.R.id.questionTV;
-
 public class MainActivity extends AppCompatActivity {
     public static final String LOG_TAG = "MainActivity";
     private int score = 0;
